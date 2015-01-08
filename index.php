@@ -36,6 +36,22 @@
         $iphone1->firstName = "iphone";
         $iphone1->type = "6 plus";
         print"The phone is a {$iphone1->getName()}";
+        
+        
+        class cereal{
+            public $firstName = "default name";
+            public $type = "default name";
+            public $price = "0";
+            
+            function getName(){
+                return"{$this->firstName}" .
+                "{$this->type}";        
+            }   
+        }
+        $cereal1 = new cereal();
+        $cereal1->firstName = "coco";
+        $cereal1->type = "puffs";
+        print"The cereal is called {$cereal1->getName()}";
         ?>
     </body>
 </html>
