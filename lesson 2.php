@@ -11,7 +11,7 @@ class Dog{
         $this->breed = $breed;
     }
     function getName(){
-        return"{$this->$firstName}" .
+        return"{$this->firstName}" .
         "{$this->lastName}";   
     } 
 }
